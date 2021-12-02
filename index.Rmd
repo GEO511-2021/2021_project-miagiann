@@ -43,8 +43,11 @@ nymedinc <- get_acs(geography = "county", state = "NY", county = c("Bronx", "Kin
                     variables = c(medianincome = "B06011_001"), year = 2015)
 
 tree_census_file <- "data/2015_Street_Tree_Census_-_Tree_Data.csv"
-if (!file.exists (tree_census_file))
+if (!file.exists (tree_census_file)) {
+  dir.create('data')
+
   download.file('https://data.cityofnewyork.us/api/views/uvpi-gqnh/rows.csv?accessType=DOWNLOAD',destfile = tree_census_file)
+}
 tree_census <- read_csv(tree_census_file)
 ```
 
