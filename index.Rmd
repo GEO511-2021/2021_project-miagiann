@@ -110,7 +110,7 @@ map
 
 After looking at these results, we are unable to make the statement that median income is directly correlated with tree population in the boroughs of NYC. One of the reasons we are unable to come to a conclusion is the fact that many other factors were not included in this analysis. While median income could potentially have an effect on tree population, the area of the borough in question and the population and building density are all factors that would heavily influence the outcome. If we were expecting results that support the idea that median income influences tree population, Manhattan, the wealthiest borough, would have had the highest tree population. However, Manhattan is an incredibly populated urban area, so it would make sense that the tree population here is not comparable to that of Queens or Brooklyn. A potential future analysis could take the area of each borough into consideration and plot the trees per square mile against the median income to assess the impact of median income more accurately. 
 
-# References
+# References 
 
 2015 Street Tree Census - Tree Data | NYC Open Data. (n.d.). . https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh.
 
